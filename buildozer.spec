@@ -7,7 +7,6 @@ source.include_exts = py,png,jpg,jpeg,atlas,json,kv,md,txt,ttf,ttc,otf
 source.exclude_patterns = tests/*,__pycache__/*,*.pyc
 # 注意：assets/ 不能整个排除——fonts/ 里的兜底中文字体必须打进 APK
 source.exclude_dirs = tests,__pycache__,build,.buildozer
-version = 1.0
 version.regex = __version__ = ['"](.*)['"]
 version.filename = %(source.dir)s/main.py
 requirements = python3,kivy
